@@ -31,17 +31,8 @@ Requires: qt6-qtbase-devel%{?_isa}
 %description devel
 %{summary}.
 
-%if 0%{?examples}
-%package examples
-Summary: Programming examples for %{name}
-Requires: %{name}%{?_isa} = %{version}-%{release}
-# BuildRequires: qt6-qtserialport-devel >= %{version}
-%description examples
-%{summary}.
-%endif
-
 %prep
-%autosetup -n %{qt_module}-everywhere-src-%{qt_version}%{?unstable:-%{prerelease}} -p1
+%autosetup -n %{name}-%{version}/upstream -p1
 
 
 %build
