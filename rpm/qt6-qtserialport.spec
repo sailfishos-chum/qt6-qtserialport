@@ -3,7 +3,7 @@
 Summary: Qt6 - SerialPort component
 Name:    qt6-qtserialport
 Version: 6.7.2
-Release: %{?dist}
+Release: 0%{?dist}
 
 # See LGPL_EXCEPTIONS.txt, LICENSE.GPL3, respectively, for exception details
 License: LGPL-3.0-only OR GPL-3.0-only WITH Qt-GPL-exception-1.0
